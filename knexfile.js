@@ -1,6 +1,6 @@
 // Update with your config settings.
 
-const databaseName = "postgres";
+const databaseName = "hasura_test";
 const pg = require('pg');
 
 const connection_url = process.env.DATABASE_URL || `postgres://postgres:@localhost:5432/${databaseName}`;
